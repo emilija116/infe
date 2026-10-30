@@ -1,6 +1,6 @@
 /* Bendras stilius */
 body {
-    background-color: rgb(193, 186, 186);
+    background-color:rgba(193, 84, 151, 0.27);
     color: #555;
     font-family: Arial, sans-serif;
     max-width: 900px;
@@ -30,6 +30,10 @@ img{
 /* Klasė leidžia pasirinkti didesnį image plotą ir sucentruoja  */
 .large{
     width: 600px;
+    display: block;
+    margin: 20px auto;}
+.medium{ 
+    width: 400px;
     display: block;
     margin: 20px auto;}
 nav{
