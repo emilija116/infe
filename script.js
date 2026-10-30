@@ -10,7 +10,7 @@ function changeTheme(){
         isDarkTheme = true;}
     else{
         document.body.style.backgroundColor = "rgba(193, 84, 151, 0.27)";
-        document.body.style.color = "#fff";
+        document.body.style.color = "#555";
         themeButton.textContent = "Tamsi tema";
         themeButton.setAttribute("aria-pressed", "false");
         isDarkTheme = false;}
